@@ -556,3 +556,24 @@ span {
   transform: scale(1.05); /* Slightly enlarges the logo on hover */
   box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds a more pronounced shadow on hover */
 }
+/* Initial state of the website content */
+.content {
+  filter: blur(5px); /* Applies blur effect */
+  transition: filter 0.5s ease; /* Smooth transition for the blur effect */
+}
+
+/* Style for the logo that appears on load */
+.logo-on-load {
+  position: fixed; /* Positions the logo fixed on the screen */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Centers the logo */
+  z-index: 1000; /* Ensures the logo is above other content */
+  /* Add more styling according to your logo */
+}
+
+/* After the effect */
+.content-blurred {
+  filter: none; /* Removes the blur effect */
+}
+
