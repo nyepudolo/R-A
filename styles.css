@@ -527,3 +527,32 @@ span {
         width: 90vw;
     }
 }
+/* Client Logos Container Styling */
+.client-logos {
+  text-align: center; /* Center-aligns the content */
+  padding: 20px; /* Adds padding around the container */
+  background-color: #f8f9fa; /* Optional: Adds a background color */
+  border-radius: 8px; /* Optional: Adds rounded corners to the container */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: Adds a subtle shadow */
+  margin: 20px auto; /* Centers the container and adds margin around it */
+  max-width: 80%; /* Limits the maximum width */
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Horizontally center the items in the container */
+  align-items: center; /* Vertically center the items in the container */
+  flex-wrap: wrap; /* Allows items to wrap as needed */
+}
+
+.client-logos img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Maintains aspect ratio */
+  margin: 10px; /* Adds some space around each logo */
+  border: 1px solid #ddd; /* Adds a subtle border */
+  padding: 5px; /* Adds padding around the logo */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.client-logos img:hover {
+  transform: scale(1.05); /* Slightly enlarges the logo on hover */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Adds a more pronounced shadow on hover */
+}
