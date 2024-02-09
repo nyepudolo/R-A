@@ -85,4 +85,11 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       loadMoreContent(); // Function to load more content
     }
   });
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function() {
+    document.querySelector('.content').classList.add('content-blurred');
+    document.querySelector('.logo-on-load').style.display = 'none';
+  }, 5000); // 5000 milliseconds = 5 seconds
+});
+
       
