@@ -17,6 +17,20 @@
     --text-color: #fff;
     --main-color: #ff007f;
 }
+/* Client Logos Styling */
+.client-logos img {
+  width: 120px; /* Adjust the width as needed */
+  height: auto; /* Maintains aspect ratio */
+  margin: 10px; /* Adds some space around each logo */
+  opacity: 0.9; /* Slightly reduces opacity for a more elegant look */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.client-logos img:hover {
+  transform: scale(1.1); /* Slightly enlarges the logo on hover */
+  opacity: 1; /* Restores full opacity on hover */
+}
+
 
 *::selection {
     background: var(--main-color);
