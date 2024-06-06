@@ -53,10 +53,10 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== typed js ====================*/
 const typed = new Typed('.multiple-text', {
-    strings: ['Database Management', 'Analytics', 'Financial Fraud Detection'],
+    strings: ['Research', 'Analytics', 'Awareness', 'SAS'],
     typeSpeed: 100,
     backSpeed: 100,
-    backDelay: 1000,
+    backDelay: 1500,
     loop: true
 
 })
